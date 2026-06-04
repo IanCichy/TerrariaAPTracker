@@ -132,33 +132,120 @@
         "codes": "goal_zenith"
     },
     {
-        "name": "Achievements: None",
+        "name": "Early Achievements",
         "type": "toggle",
         "img": "/images/settings/achievements_none.png",
-        "codes": "achievements_none"
+        "codes": "early_achievements"
     },
     {
-        "name": "Achievements: Exclude Fishing",
-        "type": "toggle",
-        "img": "/images/settings/achievements_exclude_fishing.png",
-        "codes": "achievements_exclude_fishing"
-    },
-    {
-        "name": "Achievements: Exclude Grindy",
-        "type": "toggle",
-        "img": "/images/settings/achievements_exclude_grindy.png",
-        "codes": "achievements_exclude_grindy"
-    },
-    {
-        "name": "Achievements: All",
+        "name": "Normal Achievements",
         "type": "toggle",
         "img": "/images/settings/achievements_all.png",
-        "codes": "achievements_all"
+        "codes": "normal_achievements"
+    },
+    {
+        "name": "Grindy Achievements",
+        "type": "toggle",
+        "img": "/images/settings/achievements_exclude_grindy.png",
+        "codes": "grindy_achievements"
+    },
+    {
+        "name": "Fishing Achievements",
+        "type": "toggle",
+        "img": "/images/settings/achievements_exclude_fishing.png",
+        "codes": "fishing_achievements"
+    },
+    {
+        "name": "Secret Seed Achievements",
+        "type": "toggle",
+        "img": "/images/settings/achievements_all.png",
+        "codes": "secret_seed_achievements"
+    },
+    {
+        "name": "getfixedboi Seed",
+        "type": "toggle",
+        "img": "/images/settings/goal_zenith.png",
+        "codes": "getfixedboi"
     },
     {
         "name": "Deathlink",
         "type": "toggle",
         "img": "/images/settings/deathlink.png",
         "codes": "deathlink"
+    },
+    {
+        "name": "Progressive Pickaxe",
+        "type": "progressive",
+        "stages": [
+            {"img": "/images/settings/achievements_all.png", "name": "Iron Pickaxe"},
+            {"img": "/images/settings/achievements_all.png", "name": "Gold Pickaxe"},
+            {"img": "/images/settings/achievements_all.png", "name": "Molten Pickaxe"},
+            {"img": "/images/settings/achievements_all.png", "name": "Cobalt Pickaxe"},
+            {"img": "/images/settings/achievements_all.png", "name": "Mythril Pickaxe"},
+            {"img": "/images/settings/achievements_all.png", "name": "Adamantite Pickaxe"},
+            {"img": "/images/settings/achievements_all.png", "name": "Chlorophyte Pickaxe"},
+            {"img": "/images/settings/achievements_all.png", "name": "Picksaw"}
+        ],
+        "codes": "progressive_pickaxe"
+    },
+    {
+        "name": "Progressive Sword",
+        "type": "progressive",
+        "stages": [
+            {"img": "/images/settings/achievements_all.png", "name": "Iron Broadsword"},
+            {"img": "/images/settings/achievements_all.png", "name": "Blood Butcherer"},
+            {"img": "/images/settings/achievements_all.png", "name": "Muramasa"},
+            {"img": "/images/settings/achievements_all.png", "name": "Excalibur"},
+            {"img": "/images/settings/achievements_all.png", "name": "True Excalibur"},
+            {"img": "/images/settings/achievements_all.png", "name": "Terra Blade"}
+        ],
+        "codes": "progressive_sword"
+    },
+    {
+        "name": "Progressive Wings",
+        "type": "progressive",
+        "stages": [
+            {"img": "/images/settings/achievements_all.png", "name": "Fledgling Wings"},
+            {"img": "/images/settings/achievements_all.png", "name": "Angel Wings"},
+            {"img": "/images/settings/achievements_all.png", "name": "Leaf Wings"},
+            {"img": "/images/settings/achievements_all.png", "name": "Spectre Wings"},
+            {"img": "/images/settings/achievements_all.png", "name": "Stardust Wings"}
+        ],
+        "codes": "progressive_wings"
+    },
+    {
+        "name": "Progressive Boots",
+        "type": "progressive",
+        "stages": [
+            {"img": "/images/settings/achievements_all.png", "name": "Hermes Boots"},
+            {"img": "/images/settings/achievements_all.png", "name": "Spectre Boots"},
+            {"img": "/images/settings/achievements_all.png", "name": "Lightning Boots"},
+            {"img": "/images/settings/achievements_all.png", "name": "Frostspark Boots"},
+            {"img": "/images/settings/achievements_all.png", "name": "Terraspark Boots"}
+        ],
+        "codes": "progressive_boots"
+    },
+    {
+        "name": "Progressive Hook",
+        "type": "progressive",
+        "stages": [
+            {"img": "/images/settings/achievements_all.png", "name": "Grappling Hook"},
+            {"img": "/images/settings/achievements_all.png", "name": "Dual Hook"},
+            {"img": "/images/settings/achievements_all.png", "name": "Web Slinger"},
+            {"img": "/images/settings/achievements_all.png", "name": "Static Hook"},
+            {"img": "/images/settings/achievements_all.png", "name": "Lunar Hook"}
+        ],
+        "codes": "progressive_hook"
+    },
+    {
+        "name": "Progressive Phone",
+        "type": "progressive",
+        "stages": [
+            {"img": "/images/settings/achievements_all.png", "name": "Magic Mirror"},
+            {"img": "/images/settings/achievements_all.png", "name": "GPS"},
+            {"img": "/images/settings/achievements_all.png", "name": "Cell Phone"},
+            {"img": "/images/settings/achievements_all.png", "name": "Shellphone"}
+        ],
+        "codes": "progressive_phone"
     }
 ]

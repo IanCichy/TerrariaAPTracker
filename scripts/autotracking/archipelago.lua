@@ -80,28 +80,15 @@ function onClear(slotData)
         end
     end
 
-    Tracker:FindObjectForCode("achievements_none").Active = false
-    Tracker:FindObjectForCode("achievements_exclude_fishing").Active = false
-    Tracker:FindObjectForCode("achievements_exclude_grindy").Active = false
-    Tracker:FindObjectForCode("achievements_all").Active = false
-
-    if slotData['achievements'] then
-        local achievementValue = slotData['achievements']
-        local achievementTrackerKey = nil
-
-        if achievementValue == 0 then
-            achievementTrackerKey = "achievements_none"
-        elseif achievementValue == 1 then
-            achievementTrackerKey = "achievements_exclude_grindy"
-        elseif achievementValue == 2 then
-            achievementTrackerKey = "achievements_exclude_fishing"
-        elseif achievementValue == 3 then
-            achievementTrackerKey = "achievements_all"
-        end
-
-        if achievementTrackerKey then
-            local achievementTrackerObject = Tracker:FindObjectForCode(achievementTrackerKey)
-            achievementTrackerObject.Active = true
+    -- Achievement/seed settings are sent as individual booleans by the world.
+    local boolSettings = {
+        "early_achievements", "normal_achievements", "grindy_achievements",
+        "fishing_achievements", "secret_seed_achievements", "getfixedboi",
+    }
+    for _, code in ipairs(boolSettings) do
+        local obj = Tracker:FindObjectForCode(code)
+        if obj then
+            obj.Active = (slotData[code] == true or slotData[code] == 1)
         end
     end
 

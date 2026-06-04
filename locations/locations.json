@@ -2217,6 +2217,226 @@
                         "access_rules": ["hardmode,post_skeletron,post_golem"]
                     }
                 ]
+            },
+            {
+                "name": "Going Oldschool",
+                "sections": [
+                    {
+                        "name": "Bring back the original title screen.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Rollin' In Your Grave",
+                "sections": [
+                    {
+                        "name": "Take a ride in your final resting place.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "On Fleek",
+                "sections": [
+                    {
+                        "name": "Spot the sun on a 'cool' day.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Fortune Favors the Bould",
+                "sections": [
+                    {
+                        "name": "Discover a friendly boulder.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "New Digs",
+                "sections": [
+                    {
+                        "name": "Give any villager a new look.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Terrarist",
+                "sections": [
+                    {
+                        "name": "Scare your villagers with a stink bug sword.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Spicy Licks",
+                "sections": [
+                    {
+                        "name": "Jam out on a six stringed instrument.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Interdimensional Recycling",
+                "sections": [
+                    {
+                        "name": "Give the Dryad a can of Joja Cola.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Conservationist",
+                "sections": [
+                    {
+                        "name": "Support sustainable logging by planting 100 acorns.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Organized Chaos",
+                "sections": [
+                    {
+                        "name": "Find the ultra rare Rod of Discord.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": ["hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "Grave Mistake",
+                "sections": [
+                    {
+                        "name": "'Accidentally' kill a friend with your tombstone.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasSecretSeed"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "My People Need Me",
+                "sections": [
+                    {
+                        "name": "Embark on a one way trip into outer space.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasSecretSeed"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Fear The Sun",
+                "sections": [
+                    {
+                        "name": "Dawn the garb of a vampire and get a sunburn.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasSecretSeed"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "It's Shaling Outside",
+                "sections": [
+                    {
+                        "name": "Survive the dreaded rain of boulders.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasSecretSeed"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Extra Life",
+                "sections": [
+                    {
+                        "name": "Die as a hardcore character and survive to tell the tale.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasSecretSeed"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Trash Compactor",
+                "sections": [
+                    {
+                        "name": "Research 50% of all items in Journey Mode.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasSecretSeed"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Training Day",
+                "sections": [
+                    {
+                        "name": "Get your villagers fully combat ready.",
+                        "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasAchievementsGrindy"],
+                        "access_rules": ["post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Queen Machine",
+                "sections": [
+                    {
+                        "name": "Defeated the combined form of the 3 mechanical giants.",
+                        "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasGetfixedboi"],
+                        "access_rules": ["post_the_twins,post_the_destroyer,post_skeletron_prime"]
+                    }
+                ]
+            },
+            {
+                "name": "Mini-Me",
+                "sections": [
+                    {
+                        "name": "Become a Moon Lord impersonator.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMoonLord,$hasSecretSeed"],
+                        "access_rules": ["post_moon_lord"]
+                    }
+                ]
+            },
+            {
+                "name": "Book Worm",
+                "sections": [
+                    {
+                        "name": "Catalogue every creature in the world.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMoonLord,$hasAchievementsGrindy"],
+                        "access_rules": ["post_moon_lord"]
+                    }
+                ]
+            },
+            {
+                "name": "Sea You Later",
+                "sections": [
+                    {
+                        "name": "Craft the final upgrade to the Cell Phone.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMoonLord,$hasAchievementsGrindy"],
+                        "access_rules": ["post_moon_lord"]
+                    }
+                ]
+            },
+            {
+                "name": "Boulder Lord",
+                "sections": [
+                    {
+                        "name": "Prove your worth against the Moon Lord's worst.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMoonLord,$hasSecretSeed"],
+                        "access_rules": ["post_moon_lord"]
+                    }
+                ]
             }
         ]
     }

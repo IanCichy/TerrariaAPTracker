@@ -37,13 +37,21 @@ function hasGoalOfAtLeastZenith()
 end
 
 function hasAchievements()
-    return has("achievements_exclude_grindy") or has("achievements_exclude_fishing") or has("achievements_all")
+    return has("early_achievements") or has("normal_achievements")
 end
 
 function hasAchievementsGrindy()
-    return has("achievements_exclude_fishing") or has("achievements_all")
+    return has("grindy_achievements")
 end
 
 function hasAchievementsFishing()
-    return has("achievements_all")
+    return has("fishing_achievements")
+end
+
+function hasSecretSeed()
+    return has("secret_seed_achievements")
+end
+
+function hasGetfixedboi()
+    return has("getfixedboi")
 end
